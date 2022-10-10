@@ -1,0 +1,688 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+body{
+    margin: 0;
+}
+body{
+    height:100%;
+    background:rgba(245, 222, 179, 0.479)
+}
+.img-logo-wrapper{
+    margin-top: -60px;
+}
+.img-logo{
+    width: 250px;
+    height: 250px;
+}
+.btn{
+    margin-top: 50px;
+}
+button{
+   background-color:#5c1865 ;
+   margin-right: 20px;
+   color: white;
+   border-radius: 20px;
+   width: 150px;
+   height: 50px;
+
+}
+a, 
+span{
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    width: 120px;
+    color:#F29C50
+}
+.img2{
+    height: 120vh;
+}
+.img-container{
+    background-color: black;
+}
+.on-image{
+    margin-top: -50%;
+    text-align: center;
+}
+.block{
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 400px;
+    z-index: 3;
+    width: 70%;
+}
+#font-texte{
+    font-size: 100px;
+}
+
+.texte{
+   margin-right: 200px;
+  
+   font-size: 100px;
+   font-weight: bold;
+   font-family: "montserrat" sans-serif;
+   color:white;
+   cursor: pointer;
+}
+.animation{
+    
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: "Poppins" sans serif;
+}
+#nos-services{
+    padding-top: 20%;
+    margin-top: -70%;
+}
+p{
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.img-btn{
+    color: rgb(17, 16, 16);
+    font-size: 18px;
+    margin-right:0px;
+}
+.accueil{
+    color: #F29C50;
+}
+.img-btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #f29c50;
+}
+.sur-image{
+    margin-left: 20%;
+    margin-top: -50%;
+    margin-bottom: 70%;
+}
+.opacity{
+    background: rgba(0, 0, 0, 0.514);
+    width:100%;
+    height: 120vh;
+    position: absolute;
+    padding-right:50px;
+}
+h1{
+    font-family: "poppins" sans-serif;
+    font-size: 50px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+h2 , h4{
+    font-size: 40px;
+}
+h3{
+    margin-top: -65px;
+    font-weight: 600;
+    font-family: "montserrat" sans-serif;
+    text-align: center;
+}
+h5{
+    font-size: 30px;
+    font-family:"Poppins",sans-serif ;
+    text-shadow: 5px 5px 3px black;
+}
+.B{
+    padding: 0px 100px;
+    border: 2px solid #5c1865;
+    width: 800px;
+    height: 50px;
+    margin-left: 30%;
+    border-radius: 20px;
+    background: rgba(128, 128, 128, 0.315);
+}
+.text-align{
+    margin-top: 100px;
+    text-align: center;
+}
+.search-btn{
+    width:120px;
+    display:inline;
+    margin-right:200px;
+}
+input{
+    height: 30px;
+    width: 160px;
+    border-radius: 10px;
+}
+.contact{
+    font-family: "montserrat" sans-serif;
+    font-weight: bold;
+    margin-top: 10%;
+}
+i{
+   
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: -250px;
+    width: 10px;
+}
+.Recherche{
+    align-items: center;
+    display: flex;
+    margin-left: 250px;
+}
+.search{
+    background-color: rgb(7, 7, 179);
+    height: 38px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.carousel-inner{
+    margin-top: 80px;
+    width: 50%;
+    margin-left: 23%;
+}
+.carousel-item img{
+    border: 1px solid  transparent;
+    box-shadow: 1px 0px 1px 1px;
+    margin: 50px 100px;
+    height: 600px;
+
+}
+.img{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.img img{
+    border-radius: 20px 0px;
+}
+.milieu{
+    margin-left: 100px;
+}
+.transparent{
+    background: black;
+}
+.Taille-image{
+    height: 50vh;
+    width: 81%;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.effect{
+    height: 50vh;
+    width: 79%;
+    margin-left: 180px;
+    margin-right: 250px;
+    padding-right: 31px;
+    border-radius: 20px;
+}
+.informations1{
+    display: flex;
+   margin-left:15%;
+   margin-top: 10%;
+}
+.informations2{
+    margin-top: 40px;
+}
+.Objet{
+    margin-right: 30px;
+    color: white;
+}
+.objet{
+    width: 20%;
+    padding-top: 50px;
+    padding-right: 56%;
+    margin-right: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nom{
+   
+    margin-right: 100px;
+    margin-top: 100px;
+    color: white;
+}
+.nom>input{
+   width: 300px;
+}
+.mail{
+  
+    margin-top: 100px;
+    color: white;
+}
+.mail>input{
+    width: 300px;
+}
+.message{
+    color: white;
+}
+.image{
+   margin-bottom: -20%;
+}
+.image-shape{
+    /* background: #5c1865; */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Assets/girl3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    border: 2px solid #5c1865;
+    border-radius: 20px;
+}
+form{
+    margin-top: 50px;
+}
+.send{
+    margin-top: 50px;
+
+}
+textarea{
+    padding-left: 150px;
+    padding-right: -50px;
+    border-radius: 20px;
+}
+form{
+    margin-top: -150px;
+}
+.picture{
+    background: linear-gradient(to bottom, #5c1865e5, #5c1865b7), url('Assets/hc-violet.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    margin: auto; 
+}
+footer{
+    margin-top: 70vh;
+}
+h6{
+    margin-top:-10px;
+    color: white;
+   text-align: center;
+}
+.pic-shape{
+   padding-top: 30%;
+}
+#in-pic-shape{
+   
+    position: relative;
+    margin-top: 17%;
+    color: white;
+} 
+.footer-text{
+    text-align: center;
+    margin-top: -30%;
+    padding-top: 150px;
+} 
+.hc{
+    text-decoration-line: underline;
+    color: white;
+    font-size: 50px;
+}
+.last-text{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 30px;
+    font-weight: 50rem;
+    color: white;
+}
+.icon{
+    margin-left: 85%;
+    position: absolute;
+}
+label>img{
+    margin-right: 25px;
+    color: white;
+}
+.inscription-form{
+    border: 1px solid transparent;
+    box-shadow: 1px 0px 1px 1px;
+    margin: 30% auto;
+    display: flex;
+    width: 800px;
+    height: 700px;
+    border-radius: 20px;
+}
+.space{
+    width: 50%;
+}
+.image-cover{
+    margin-left:5px
+}
+.image-cover img{
+    height: 700px;
+    border-radius: 20px;
+} 
+.opacité{
+    background:#6b0277ad;
+    width:16.5%;
+    height: 700px;
+    position: absolute;
+    margin-right: 55px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.connexion{
+  width:15.5%;
+}
+.opacité img{
+   
+    margin-top:85px;
+    border-radius: 20px;
+}
+#Mon-image{
+    border-radius: 20px;
+}
+.compte{
+    margin-left: 30px;
+    border-radius: 2%0px;
+    width: 50%;
+    background:#D9d9d9 ;
+    padding-left: 5%;
+    padding-right: 30px;
+}
+.ininput{
+    border: 1px solid #5c1865;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-right: 100px;
+}
+.account-creation-row{
+    color: #5c1865;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.information{
+    margin-top: 50px;
+    color: #5c1865;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inscription-btn{
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.account{
+    width: 50%;
+    margin-right: 30px;
+    padding-top: 100px;
+}
+.en-tête{
+    width: 100%;
+    background-color: #5c1865;
+    display: flex;
+    justify-content: space-between;
+}
+.users{
+    font-size: 130px;
+    color: white;
+    width:20%;
+    
+}
+.before-listing{
+    border: 1px solid transparent;
+    box-shadow: 1px 0px 1px 1px;
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-left: -300px;
+    height: 350px;
+    width: 30%;
+}
+.before-listing>div{
+    display: flex;
+}
+.cov-input{
+    margin-left: 13%;
+}
+.listing{
+    background: #D9d9d9;
+}
+.cars-page{
+    margin-top:70px;
+    margin-bottom: -200px;
+    text-align: center;
+    font-size: 30px;
+    color: #5c1865;
+    font-family: 'Bellota Text', cursive;
+    text-decoration: underline;
+}
+.car-listing{
+    margin-top: 450px;
+    display: flex;
+    margin-left: 20%;
+}
+.block{
+    width: 100%;
+    height: 50%;
+   margin-top:10px;
+}
+
+.cars-icon{
+    font-size: 15px;
+    text-align: center;
+    color:#5c1865;
+}
+.indications{
+    margin-left:90%;
+}
+.cars-image{
+    border: 1px solid transparent;
+    box-shadow: 1px 0px 1px 0px;
+    border-radius: 20px;
+    background: #D9d9d9;
+    width: 300px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+.cars-image>label>img{
+      border-radius: 
+       10px 0px 0px;
+}
+.cars-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #5c1865;
+}
+.main{
+    margin-top: 15%;
+    height: 200vh;
+}
+.renseignement{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.renseignement>div>span{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: -10%;
+    margin-left: 20px;
+}
+.search-btn4{
+    background: blue;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: -20px;
+}
+.selection{
+    height: 70px;
+    margin-top: 20px;
+    padding-top: 30px;
+    
+}
+.selection>div>input{
+    margin-right: 20px; 
+    margin-left: 20px;
+}
+.house-image{
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+    position: relative;
+    margin-top: 300px;
+    width:300px ;
+    height: 500px;
+    background: #cac6c6;
+}
+.house-image img{
+    border-radius: 30px 30px 0px 0px;
+}
+.in-house-image{
+    position: absolute;
+    margin-top: -50px;
+    text-decoration: none;
+}
+.localisation{
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 1px 0px 1px 0px;
+    background: #F29C50;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.stars-cov{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.stars{
+    width: 120px;
+    background: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    box-shadow: 1px 0px 1px 0px;
+    display: inline;
+}
+.stars>label>img{
+    margin-right: -8px;
+}
+.tarif{
+    background: white;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 1px 0px 1px 0px;
+    margin-right: 10px;
+}
+.tarif>span{
+    color: black;
+    font-family:'Montserrat', sans-serif ;
+    font-size: 20px;
+    text-decoration: none;
+}
+.houses-rev-btn{
+   margin-top: 50px;
+   position: absolute;
+   margin-left: 60px;
+}
+.containers-wrapper{
+    margin-top: 100px;
+    margin-bottom: -400px;
+}
+.big-container{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.big-container2{
+    display: flex;
+    margin-right: 50px;
+}
+.image-couverture img{
+    height: 700px;
+    border-radius: 20px;
+}
+.space{
+   width: 50%;
+}
+.opac2{
+    width:360px;
+    padding-left: -50px;
+}
+.add-body{
+    margin: 0;
+}
+.add{
+    text-align: center;
+    margin-right: 30%;
+}
+.upload-form{
+    margin-bottom: -30%;
+    background: #D9d9d9;
+    border: 1px solid transparent;
+    box-shadow:  1px 1px 1px 1px;
+    border-radius: 30px;
+    width:40%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: -10%;
+    margin: 25% 25%;
+}
+.form-container{
+    margin-top: 30%;
+    padding-left: 15%;
+}
+.main-container{
+    margin-top: 20px;
+}
+.services{
+   
+    margin-top: -20%;
+}
+#services{
+    font-family: "montserrat" sans-serif;
+    font-weight: bold;
+}
+.diapo{
+    margin-bottom: -40%;
+    position: relative;
+    overflow: hidden;
+}
+.elements{
+    margin-bottom: -50%;
+    display: flex;
+}
+.element{
+    flex:1 0 100%;
+    position: relative;
+    height: 70%;
+}
+.element>img{
+    width: 100%;
+    height: 30%;
+}
+.caption{
+    position: absolute;
+    top:350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+}
+#nav-gauche, #nav-droite{
+    height:50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+#nav-droite{
+    right: 0;
+}
+.cars-main{
+    margin-top: -5%;
+}
